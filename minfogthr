@@ -1,0 +1,8 @@
+echo "A simple  mobile info gathering script for unix"
+echo "Installing........"
+sudo apt-get install gammu
+echo "Please plugin the usb with your mobile"
+echo "getting status of your phone.............."
+gammu identify
+echo "getting battery status........."
+gammu battery
